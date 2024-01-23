@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body bgcolor="sky blue">
+
+    <form onsubmit="return registerUser()">
+        <center>
+            <p><b>Name: </b><input type="text" id="name" /></p>
+            <p><b>Email: </b><input type="email" id="email" /></p>
+            <p><b>Phone: </b><input type="tel" id="phone" /></p>
+            <p><b>Event: </b><select id="event">
+                <option>Select</option>
+                <option>Music Concert</option>
+                <option>Art Exhibition</option>
+                <option>Book Launch</option>
+                <option>Comedy Show</option>
+            </select></p>
+            <p><input type="submit" value="Register" /></p>
+        </center>
+    </form>
+
+    <script src="reg.js"></script>
+</body>
+</html>
